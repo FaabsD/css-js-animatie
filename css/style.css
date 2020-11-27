@@ -18,3 +18,7 @@ main {
   height: 10vw;
   transform: translateX(2em);
 }
+.block__to-right {
+    transition: transform 1s ease-in-out;
+    transform: translateX(10em);
+}
