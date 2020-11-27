@@ -13,3 +13,6 @@ volgt
 ### 12:06
 
 Animatie oefeningen stap 2: knop en element centreren (00:11:46) afgerond.
+
+### 12:27
+Animatie oefeningen stap 3: vlakje animeren (00:10:55) afgerond.
