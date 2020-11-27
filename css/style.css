@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: skyblue;
+  min-height: 100vh;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animate-button {
+  height: 1.5em;
+}
+.block {
+  background-color: gainsboro;
+  width: 10vw;
+  height: 10vw;
+  transform: translateX(2em);
+}
