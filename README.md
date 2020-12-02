@@ -6,6 +6,8 @@
 
 ## link naar live versie
 
+<http://19959.hosts1.ma-cloud.nl/bewijzenmap/periode2.2/fro/css-js-animatie>
+
 volgt
 
 ## 27-11-2020
