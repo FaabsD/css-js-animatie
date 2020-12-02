@@ -20,6 +20,19 @@ nav {
   flex-direction: column;
 }
 
+.navigation__button {
+  padding: .7em;
+  width: 2.3em;
+  box-sizing: border-box;
+  color: gainsboro;
+}
+
+.navigation__button:hover {
+  color: darkblue;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
 .navigation__item {
   margin-bottom: .1em;
 
@@ -31,6 +44,18 @@ nav {
   text-decoration: none;
   display: block;
   padding: .5em;
+  transform: translateX(-100vw);
+  transition: transform .8s ease-in-out;
+}
+
+.navigation__link--slide-in {
+  transform: translateX(0);
+}
+
+.navigation__link:hover {
+  color: gainsboro;
+  background-color: darkblue;
+  cursor: pointer;
 }
 
 main {
