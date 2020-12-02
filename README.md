@@ -45,3 +45,7 @@ Animatie oefeningen stap 9: menu responsive (00:08:21) afgerond.
 ### 16:54
 
 Animatie oefeningen stap 10: verfijning van de animatie (00:09:30) afgerond.
+
+### 17:12
+
+Animatie oefeningen stap 11: verfijning van de verticale animatie (00:04:24) afgerond.
