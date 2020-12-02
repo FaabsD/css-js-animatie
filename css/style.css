@@ -5,9 +5,11 @@ body {
   min-height: 100vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
 nav {
   position: fixed;
 }
+
 .navigation {
   font-size: 1.5rem;
   list-style-type: none;
@@ -17,10 +19,12 @@ nav {
   flex-wrap: nowrap;
   flex-direction: column;
 }
-.navigation__item{
-    margin-bottom: .1em;
+
+.navigation__item {
+  margin-bottom: .1em;
 
 }
+
 .navigation__link {
   color: darkblue;
   background-color: gainsboro;
@@ -28,6 +32,7 @@ nav {
   display: block;
   padding: .5em;
 }
+
 main {
   min-height: 100vh;
   display: flex;
@@ -35,9 +40,11 @@ main {
   align-items: center;
   overflow-x: hidden;
 }
+
 .animate-button {
   height: 1.5em;
 }
+
 .block {
   background-color: gainsboro;
   width: 10vw;
@@ -45,6 +52,7 @@ main {
   transform: translateX(2em);
   transition: transform 1s cubic-bezier(0.08, 0.8, 0.63, 1);
 }
+
 .block__to-right {
   transform: translateX(100vw) rotate(180deg);
 }
