@@ -27,3 +27,7 @@ Animatie oefeningen stap 4: menu stijlen (00:15:26) afgerond.
 ### 09:44
 
 Animatie oefeningen stap 5: animatie uitstellen met setTimeOut() (00:03:32) afgerond.
+
+### 10:26
+
+Animatie oefeningen stap 6: De menu-items na elkaar inschuiven (00:16:51) afgerond.
