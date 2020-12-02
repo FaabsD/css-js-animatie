@@ -58,16 +58,36 @@ nav {
   cursor: pointer;
 }
 
+/* verfijning van de animatie, tekst na laten animeren */
+.navigation__link--slide-in .navigation__text {
+  animation: ijl-na 3s forwards;
+}
+@keyframes ijl-na { 
+  0% {
+    transform: translateX(-2em);
+  }
+  50% {
+    transform: translateX(+.8em);
+  }
+  75% {
+    transform: translateX(-.4em);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 @media screen and (min-width: 700px) {
   .navigation {
     flex-direction: row;
     width: 100vw;
   }
+
   .navigation__item {
     margin-top: unset;
     margin-left: .1em;
     flex: 1 0 auto;
   }
+
   .navigation__link {
     transform: translateY(-100vh)
   }
