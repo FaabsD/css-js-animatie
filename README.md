@@ -41,3 +41,7 @@ Animatie oefeningen stap 7: Icons in de knop wisselen (00:08:50) afgerond.
 ### 16:35
 
 Animatie oefeningen stap 9: menu responsive (00:08:21) afgerond.
+
+### 16:54
+
+Animatie oefeningen stap 10: verfijning van de animatie (00:09:30) afgerond.
