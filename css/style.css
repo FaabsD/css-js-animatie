@@ -67,7 +67,7 @@ nav {
     transform: translateX(-2em);
   }
   50% {
-    transform: translateX(+.8em);
+    transform: translateX(.8em);
   }
   75% {
     transform: translateX(-.4em);
@@ -95,6 +95,27 @@ nav {
   .navigation__link--slide-in {
     transform: translateY(0);
   }
+  /* verfijning van de animatie, tekst na laten animeren */
+  .navigation__link--slide-in .navigation__text {
+    animation: ijl-na-verticaal 2s forwards;
+  }
+
+  @keyframes ijl-na-verticaal {
+    0% {
+      transform: translateY(-1em);
+    }
+
+    50% {
+      transform: translateY(.1em);
+    }
+
+    75% {
+      transform: translateY(-.05em);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
 }
 
 main {
