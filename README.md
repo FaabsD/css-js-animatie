@@ -35,3 +35,9 @@ Animatie oefeningen stap 6: De menu-items na elkaar inschuiven (00:16:51) afgero
 ### 16:10
 
 Animatie oefeningen stap 7: Icons in de knop wisselen (00:08:50) afgerond.
+
+### video 8 overgeslagen, Ik commit tussen de video's door
+
+### 16:35
+
+Animatie oefeningen stap 9: menu responsive (00:08:21) afgerond.
