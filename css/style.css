@@ -34,7 +34,7 @@ nav {
 }
 
 .navigation__item {
-  margin-bottom: .1em;
+  margin-top: .1em;
 
 }
 
@@ -80,4 +80,9 @@ main {
 
 .block__to-right {
   transform: translateX(100vw) rotate(180deg);
+}
+
+/* de menu knop of sluitknop verbergen */
+.hide {
+  display: none !important;
 }
