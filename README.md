@@ -31,3 +31,7 @@ Animatie oefeningen stap 5: animatie uitstellen met setTimeOut() (00:03:32) afge
 ### 10:26
 
 Animatie oefeningen stap 6: De menu-items na elkaar inschuiven (00:16:51) afgerond.
+
+### 16:10
+
+Animatie oefeningen stap 7: Icons in de knop wisselen (00:08:50) afgerond.
