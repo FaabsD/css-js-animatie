@@ -67,10 +67,12 @@ nav {
     transform: translateX(-2em);
   }
   50% {
-    transform: translateX(.8em);
+    transform: translateX(0);
+    transform: translateY(-1em);
   }
   75% {
-    transform: translateX(-.4em);
+    transform: translateX(1em);
+    transform: translateY(1em);
   }
   100% {
     transform: translateX(0);
@@ -82,6 +84,31 @@ nav {
     width: 100vw;
   }
 
+  .navigation__link:hover > .navigation__text {
+    animation: rotate 1.5s forwards;
+
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    25%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .navigation__text {
+    text-align: center;
+  }
   .navigation__item {
     margin-top: unset;
     margin-left: .1em;
